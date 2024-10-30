@@ -1,54 +1,13 @@
-eCommerce Sales Data Analysis
-This project provides insights into eCommerce sales data by analyzing customer behavior, revenue trends, and product performance using SQL and Python. The analysis and visualizations are conducted in Jupyter Notebook, connecting to a MySQL database for efficient data handling and exploration.
+<h1>eCommerce Sales Data Analysis</h1> This project provides insights into eCommerce sales data by analyzing customer behavior, revenue trends, and product performance using SQL and Python.<br> The analysis and visualizations are conducted in Jupyter Notebook, connecting to a MySQL database for efficient data handling and exploration.<br> <h1>📁 Project Structure</h1><br> Data Files: Raw data files (in XLS format) for customers, orders, products, payments, etc.<br> Resources: Contains any additional materials and references used in the project.<br>
+SQL Queries: Organized into three levels:<br>
+Basic: Foundational insights, such as unique customer locations and total sales per category.<br>
+Intermediate: Monthly order volumes, revenue contributions by category, and correlation analyses.<br>
+Advanced: Cumulative sales, customer retention, and year-over-year growth metrics.<br>
 
-📁 Project Structure
-Data Files: Raw data files (in XLS format) for customers, orders, products, payments, etc.
-Resources: Contains any additional materials and references used in the project.
-SQL Queries: Organized into three levels:
-Basic: Foundational insights, such as unique customer locations and total sales per category.
-Intermediate: Monthly order volumes, revenue contributions by category, and correlation analyses.
-Advanced: Cumulative sales, customer retention, and year-over-year growth metrics.
+<h1>🚀 Key Features</h1><br> Data Analysis: SQL queries to extract valuable insights, including customer retention rates, top-spending customers, and moving average order values.<br> Database Integration: Connected MySQL database to Python via MySQL Connector for seamless data extraction.<br> Data Visualization: Used Pandas, NumPy, Seaborn, and Matplotlib to visualize key trends and revenue distributions.<br> <h1>📊 Tech Stack</h1><br> Languages & Tools: SQL, Python, Jupyter Notebook<br> Libraries: Pandas, NumPy, Seaborn, Matplotlib<br> Database: MySQL (connected using MySQL Connector)<br> <h1>📈 Example Insights</h1><br> Monthly Sales Trends: Analyzed order volumes and revenue trends across months and years.<br> Customer Behavior: Retention rates, spending patterns, and location-based analysis.<br> Revenue Attribution: Revenue breakdown by category, seller performance, and top customers.<br> <h1>📂 Folder Structure</h1><br> Ecommerce_SalesDataAnalysis_Project/<br> │<br> ├── .ipynb_checkpoints/ # Jupyter Notebook checkpoints<br> ├── Resources/ # Additional materials<br> ├── customers.xls # Customer data<br> ├── geolocation.xls # Geolocation information<br> ├── order_items.xls # Items in each order<br> ├── orders.xls # Orders data<br> ├── payments.xls # Payments information<br> ├── products.xls # Product details<br> ├── sellers.xls # Seller details<br> └── Ecommerce_Sales_Data.pdf # Summary report in PDF<br> <h1>📜 How to Run</h1><br> 1. Clone the repository:<br> <code>git clone https://github.com/yourusername/ecommerce_sales_data_analysis.git</code><br>
+Install dependencies: Ensure you have the required Python libraries installed.<br>
+<code>pip install pandas numpy seaborn matplotlib mysql-connector-python</code><br>
 
-🚀 Key Features
-Data Analysis: SQL queries to extract valuable insights, including customer retention rates, top-spending customers, and moving average order values.
-Database Integration: Connected MySQL database to Python via MySQL Connector for seamless data extraction.
-Data Visualization: Used Pandas, NumPy, Seaborn, and Matplotlib to visualize key trends and revenue distributions.
+Run the analysis in Jupyter Notebook to execute the SQL queries and visualize data insights.<br>
 
-📊 Tech Stack
-Languages & Tools: SQL, Python, Jupyter Notebook
-Libraries: Pandas, NumPy, Seaborn, Matplotlib
-Database: MySQL (connected using MySQL Connector)
-
-📈 Example Insights
-Monthly Sales Trends: Analyzed order volumes and revenue trends across months and years.
-Customer Behavior: Retention rates, spending patterns, and location-based analysis.
-Revenue Attribution: Revenue breakdown by category, seller performance, and top customers.
-`
-bash
-Copy code
-Ecommerce_SalesDataAnalysis_Project/
-│
-├── .ipynb_checkpoints/        # Jupyter Notebook checkpoints`
-├── Resources/                 # Additional materials
-├── customers.xls              # Customer data
-├── geolocation.xls            # Geolocation information
-├── order_items.xls            # Items in each order
-├── orders.xls                 # Orders data
-├── payments.xls               # Payments information
-├── products.xls               # Product details
-├── sellers.xls                # Seller details
-└── Ecommerce_Sales_Data.pdf   # Summary report in PDF
-📜 How to Run
-Clone the repository:
-bash
-Copy code
-<code>
-git clone https://github.com/yourusername/ecommerce_sales_data_analysis.git
-Install dependencies: Ensure you have the required Python libraries installed:
-<code>
-bash
-Copy code
-pip install pandas numpy seaborn matplotlib mysql-connector-python
-Run the analysis in Jupyter Notebook to execute the SQL queries and visualize data insights.
-📧 Contact
-For any questions or feedback, please reach out to [your email].
+<h1>📧 Contact</h1><br> For any questions or feedback, please reach out to kumartushar78867@gmail.com.<br>
